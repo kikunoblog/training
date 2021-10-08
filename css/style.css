@@ -456,6 +456,11 @@ template {
 }
 
 /*Foundationフォルダの中にあるreset.scssのimport*/
+.p-menu {
+  color: #707070;
+  cursor: pointer;
+}
+
 /*Layoutフォルダの中にあるheader.scssのimport*/
 /*Layoutフォルダの中にあるfooter.scssのimport*/
 /*Layoutフォルダの中にあるmain.scssのimport*/
@@ -463,6 +468,19 @@ template {
 /*Objectフォルダの中のProjectフォルダの中にあるheader.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるfooter.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるmain.scssのimport*/
+.p-sidebar {
+  background-color: #f2ede9;
+  width: 87.5%;
+  z-index: 1000;
+  display: block;
+  position: absolute;
+  top: 0vw;
+  right: 0vw;
+  overflow-y: auto;
+  right: -100%;
+  transition: right 0.5s;
+}
+
 /*Objectフォルダの中のProjectフォルダの中にあるsidebar.scssのimport*/
 /*Objectフォルダの中のComponentフォルダの中にあるheader.scssのimport*/
 /*Objectフォルダの中のComponentフォルダの中にあるfooter.scssのimport*/
