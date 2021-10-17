@@ -493,17 +493,25 @@ template {
 /*Objectフォルダの中のProjectフォルダの中にあるheader.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるfooter.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるmain.scssのimport*/
-.p-sidebar {
-  background-color: #f2ede9;
-  width: 87.5%;
-  z-index: 1000;
-  display: block;
+#p-menu-trigger {
+  color: #707070;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 0;
   position: absolute;
-  top: 0vw;
-  right: 0vw;
-  overflow-y: auto;
-  right: -100%;
-  transition: right 0.5s;
+  right: 16px;
+  top: 14px;
+  transform: translateX(0);
+  transition: transform 0.5s;
+  vertical-align: middle;
+}
+
+#p-menu-trigger::after {
+  content: "×";
+  font-size: 3rem;
+  margin-top: -20px;
 }
 
 /*Objectフォルダの中のProjectフォルダの中にあるsidebar.scssのimport*/
