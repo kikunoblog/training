@@ -514,6 +514,10 @@ template {
   margin-top: -20px;
 }
 
+#js-menu .open {
+  right: 0%;
+}
+
 /*Objectフォルダの中のProjectフォルダの中にあるsidebar.scssのimport*/
 /*Objectフォルダの中のComponentフォルダの中にあるheader.scssのimport*/
 /*Objectフォルダの中のComponentフォルダの中にあるfooter.scssのimport*/

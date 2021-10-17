@@ -51,10 +51,10 @@
           <script>
             $(function(){
               // 横からスライド
-             
+             //ヘッダーにある#js-menuをクリックしたら、クラス名sidebarにopenクラスが付く
               $("#js-menu").click(function(){
-                $(this ).toggleClass("open");
-                //$(".p-sidebar ").toggleClass("open");
+                $("sidebar").toggleClass("open");
+              
               });
           
                // $("#p-menu-trigger").click(function(){
