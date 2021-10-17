@@ -477,6 +477,10 @@ template {
   transition: right 0.5s;
 }
 
+.sidebar.open {
+  right: 0%;
+}
+
 /*Layoutフォルダの中にあるsidebar.scssのimport*/
 #js-menu {
   display: block;

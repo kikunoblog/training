@@ -13,4 +13,9 @@
     display: block;
     right: -100%;
     transition: right 0.5s;
+    //jQueryで#js-menuをクリックしたらopenクラスが付与されるように設定したので、
+
+  &.open {
+    right: 0%;
+  }
 }
