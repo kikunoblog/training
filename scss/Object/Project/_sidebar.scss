@@ -1,16 +1,21 @@
-.p-sidebar {
-    background-color: #f2ede9;
-    width: 87.5%;
-    //height: 2843px;
-    z-index: 1000;
-    display: block;
+#p-menu-trigger {
+    color: #707070;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0;
     position: absolute;
-    top: 0vw;
-    right: 0vw;
-    //スクロールさせるための設定
-    overflow-y: auto;
-    //position: fixed;
-    //サイドバーのメニューが右からスライドしてくるような設定
-    right: -100%;
-    transition: right 0.5s;
-}
+    right: 16px;
+    top: 14px;
+    transform: translateX(0);
+    transition: transform 0.5s;
+    vertical-align: middle;
+ 
+    &::after {
+      content: "×";
+      font-size: 3rem;
+      margin-top: -20px;
+     
+    }
+  }

@@ -38,10 +38,35 @@
         <header class="header"></header>
         <div class="p-menu">MENU</div>
 
-        <aside class="sidebar"></aside>
+        <aside class="sidebar">
 
+
+        </aside>
         
           </div>
           </div>
+
+
+
+          <script>
+            $(function(){
+              // 横からスライド
+             
+              $("#js-menu").click(function(){
+                $("sidebar").toggleClass("open");
+                $(this).toggleClass("active");
+              });
+          
+               // $("#p-menu-trigger").click(function(){
+              //openクラスの要素を削除
+              //$(".open").remove();
+            
+              });
+            
+          
+          
+          </script>
           </body>
           </html>
+
+          
