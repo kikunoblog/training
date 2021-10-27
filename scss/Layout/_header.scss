@@ -1,18 +1,28 @@
-.c-wrapper{
-  justify-content: flex-end;
-  //flex-direction: column;
-  align-items: flex-start;
-}
 
+/*子要素である.headerのMENUという文字を右上に持っていきたいため、親要素の.c-wrapperにflexやその他を指定したが、
+.headerにwidth100%があるとそれが無効になってしまう。そのため、widht100%を無効にすると、MENUの文字は希望した右上
+に位置してくれるが、.headerで設定しているcolorがズレて100%でなくなってしまう。
+そこで、MENUの文字を別にdivクラスで設定すればできるということに気が付く。親要素は.headerになるため、.l-container
+クラスは消した
+*/
 .header {
   height: 217px;
   background-color: #fff7ef;
-  //display: flex;
-  //justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
   //flex-direction: column;
-  //align-items: flex-start;
-  //width: 100%;
+  align-items: flex-start;
+  width: 100%;
   font-size: 4vw;
+  font-weight: bold;
+
+  .menu{
+    cursor: pointer;
+    color: #707070;
+  }
+ 
+ 
+ 
 
 }
 
