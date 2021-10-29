@@ -485,6 +485,18 @@ template {
 /*Objectフォルダの中のProjectフォルダの中にあるheader.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるfooter.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるmain.scssのimport*/
+#s-menu {
+  margin: 5vw;
+}
+
+.s-list1 {
+  margin: 5vw;
+}
+
+.s-list2 {
+  margin: 5vw;
+}
+
 .side {
   background-color: #f2ede9;
   width: 87.5%;
@@ -508,6 +520,7 @@ template {
   font-size: 5vw;
   font-weight: bold;
   color: #707070;
+  margin-top: 15vw;
 }
 
 /*Objectフォルダの中のProjectフォルダの中にあるsidebar.scssのimport*/
