@@ -485,6 +485,22 @@ template {
 /*Objectフォルダの中のProjectフォルダの中にあるheader.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるfooter.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるmain.scssのimport*/
+.side {
+  background-color: #f2ede9;
+  width: 87.5%;
+  position: absolute;
+  top: 0vw;
+  transition: right 0.5s;
+  display: block;
+  right: 0vw;
+}
+
+.s-text1 {
+  font-size: 5vw;
+  font-weight: bold;
+  color: #707070;
+}
+
 /*Objectフォルダの中のProjectフォルダの中にあるsidebar.scssのimport*/
 /*Objectフォルダの中のComponentフォルダの中にあるheader.scssのimport*/
 /*Objectフォルダの中のComponentフォルダの中にあるfooter.scssのimport*/

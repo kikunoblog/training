@@ -1,0 +1,15 @@
+.side{
+    background-color: #f2ede9;
+    width:87.5%;
+    position: absolute;
+    top: 0vw;
+    //right: -100%;
+    transition: right 0.5s;
+    display: block;
+    right: 0vw;
+}
+.s-text1{
+    font-size: 5vw;
+    font-weight: bold;
+    color: #707070;
+}
