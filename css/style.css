@@ -473,7 +473,7 @@ template {
   font-weight: bold;
 }
 
-.header .menu {
+.header #menu {
   cursor: pointer;
   color: #707070;
 }
