@@ -487,10 +487,6 @@ template {
 
 /*Layoutフォルダの中にあるheader.scssのimport*/
 /*Layoutフォルダの中にあるfooter.scssのimport*/
-.header {
-  background-color: red;
-}
-
 /*Layoutフォルダの中にあるmain.scssのimport*/
 /*Layoutフォルダの中にあるsidebar.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるheader.scssのimport*/
