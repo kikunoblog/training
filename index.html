@@ -31,12 +31,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    
   </head>
   <body>
     <div class="l-container">
       <div class="c-wrapper">
 <header class="header">
-  <div class="menu">MENU</div>
+  <div id="menu">MENU</div>
 </header>
 <aside class="side">
   <div id="cross">×</div>
@@ -107,7 +108,13 @@
 </aside>
           </div>
           </div>
+<script>
 
+$("#menu").on("click", function(){
+  $("#target").toggleClass("border");
+});
+
+</script>
           </body>
           </html>
 

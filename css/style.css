@@ -505,7 +505,6 @@ template {
   right: -100%;
   transition: right 0.5s;
   display: block;
-  right: 0vw;
 }
 
 #cross {
