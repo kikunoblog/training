@@ -481,6 +481,10 @@ template {
   top: 1vw;
 }
 
+.header .rayer {
+  background-color: red;
+}
+
 /*Layoutフォルダの中にあるheader.scssのimport*/
 /*Layoutフォルダの中にあるfooter.scssのimport*/
 .rayer {
