@@ -502,6 +502,7 @@ template {
   width: 87.5%;
   position: absolute;
   top: 0vw;
+  right: -100%;
   transition: right 0.5s;
   display: block;
   right: 0vw;
