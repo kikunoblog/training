@@ -19,8 +19,13 @@
     right: -100%;
     transition: right 0.5s;
     display: block;
-    
 }
+
+.open{
+    right:0vw;
+    transition: right 0.3s;
+}
+
 #cross{
     font-size: 300%;
     font-weight: bold;
