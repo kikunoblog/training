@@ -483,21 +483,23 @@ template {
 
 /*Layoutフォルダの中にあるheader.scssのimport*/
 /*Layoutフォルダの中にあるfooter.scssのimport*/
-html {
-  height: 100%;
-  width: 100%;
+/*html{
+    height: 100%;
+    width: 100%;
 }
 
-html::before {
-  background: red;
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
+html::before{
 
+        background: red;
+        content: "";
+        //display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+      */
 /*Layoutフォルダの中にあるmain.scssのimport*/
 /*Layoutフォルダの中にあるsidebar.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるheader.scssのimport*/
@@ -522,7 +524,16 @@ html::before {
   top: 0vw;
   right: -100%;
   transition: right 0.5s;
-  display: block;
+}
+
+.side::before {
+  background: red;
+  content: "";
+  height: 100%;
+  left: -85vw;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .open {

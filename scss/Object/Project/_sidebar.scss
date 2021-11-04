@@ -18,7 +18,7 @@
     top: 0vw;
     right: -100%;
     transition: right 0.5s;
-    display: block;
+    //display: block;
 }
 .side::before{
 
@@ -26,7 +26,7 @@
     content: "";
     //display: block;
     height: 100%;
-    left: 0;
+    left: -85vw;
     position: absolute;
     top: 0;
     width: 100%;
