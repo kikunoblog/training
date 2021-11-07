@@ -20,33 +20,14 @@
     transition: right 0.5s;
     //display: block;
 }
-.side::before{
 
-    background: red;
-    content: "";
-    //display: block;
-    height: 100%;
-    left: -85vw;
-    position: absolute;
-    top: 0;
-    width: 100%;
-  }
-
-
-  
 
 .open{
     right:0vw;
     transition: right 0.3s;   
 }
 
-/*.open2{
-    width: 12.5%;
-    background-color: #707070;
-    position: absolute;
-    left: 0vw;
-}
-*/
+
 
 #cross{
     font-size: 300%;

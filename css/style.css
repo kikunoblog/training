@@ -483,12 +483,13 @@ template {
 
 /*Layoutフォルダの中にあるheader.scssのimport*/
 /*Layoutフォルダの中にあるfooter.scssのimport*/
-/*html{
-    height: 100%;
-    width: 100%;
+.l-container {
+  height: 100%;
+  width: 100%;
+  left: -100%;
 }
 
-html::before{
+/*.l-container::before{
 
         background: red;
         content: "";
@@ -499,7 +500,17 @@ html::before{
         top: 0;
         width: 100%;
       }
-      */
+*/
+.open2::before {
+  width: 100%;
+  height: 2800px;
+  background-color: #707070;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  content: "";
+}
+
 /*Layoutフォルダの中にあるmain.scssのimport*/
 /*Layoutフォルダの中にあるsidebar.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるheader.scssのimport*/
@@ -526,28 +537,11 @@ html::before{
   transition: right 0.5s;
 }
 
-.side::before {
-  background: red;
-  content: "";
-  height: 100%;
-  left: -85vw;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
 .open {
   right: 0vw;
   transition: right 0.3s;
 }
 
-/*.open2{
-    width: 12.5%;
-    background-color: #707070;
-    position: absolute;
-    left: 0vw;
-}
-*/
 #cross {
   font-size: 300%;
   font-weight: bold;

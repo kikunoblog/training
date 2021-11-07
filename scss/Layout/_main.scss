@@ -1,9 +1,10 @@
-/*html{
+.l-container{
     height: 100%;
     width: 100%;
+    left: -100%;
 }
 
-html::before{
+/*.l-container::before{
 
         background: red;
         content: "";
@@ -14,5 +15,16 @@ html::before{
         top: 0;
         width: 100%;
       }
-      */
+*/
+ 
+
+.open2::before{
+    width: 100%;
+    height: 2800px;
+    background-color:#707070;
+    position: absolute;
+    left: 0vw;
+    top:0vw;
+    content: "";
+}
      
