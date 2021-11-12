@@ -40,7 +40,7 @@
   <div id="menu">MENU</div>
 </header>
 <aside class="side">
-  <div id="cross">×</div>
+  <div id="cross" class="open open2">×</div>
   <ul id="s-menu">
     <li class="s-text1">バーガー</li>
     <li class="s-list1">
@@ -117,7 +117,7 @@ $("#menu").on("click", function(){
   $(".l-container").toggleClass("open2");
 });
 $("#cross").on("click", function(){
-  $("#cross").removeClass("open open2");
+  $(".side .l-container").removeClass("open open2");
 });
 
 </script>
