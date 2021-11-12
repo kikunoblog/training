@@ -471,6 +471,7 @@ template {
   width: 100%;
   font-size: 4vw;
   font-weight: bold;
+  position: relative;
 }
 
 .header #menu {
@@ -501,7 +502,7 @@ template {
         width: 100%;
       }
 */
-.open2::before {
+.move2::before {
   width: 100%;
   height: 2800px;
   background-color: #707070;
@@ -509,6 +510,10 @@ template {
   left: 0vw;
   top: 0vw;
   content: "";
+}
+
+body {
+  position: relative;
 }
 
 /*Layoutフォルダの中にあるmain.scssのimport*/
@@ -537,7 +542,7 @@ template {
   transition: right 0.5s;
 }
 
-.open {
+.move {
   right: 0vw;
   transition: right 0.3s;
 }
