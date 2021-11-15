@@ -1,0 +1,33 @@
+.l-container{
+    height: 100%;
+    width: 100%;
+    left: -100%;
+}
+
+/*.l-container::before{
+
+        background: red;
+        content: "";
+        //display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+*/
+ 
+
+.move2::before{
+    width: 100%;
+    height: 2800px;
+    background-color:#707070;
+    position: absolute;
+    left: 0vw;
+    top:0vw;
+    content: "";
+}
+     
+body{
+    position: relative;
+}

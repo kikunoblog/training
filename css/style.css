@@ -471,6 +471,7 @@ template {
   width: 100%;
   font-size: 4vw;
   font-weight: bold;
+  position: relative;
 }
 
 .header #menu {
@@ -483,6 +484,38 @@ template {
 
 /*Layoutフォルダの中にあるheader.scssのimport*/
 /*Layoutフォルダの中にあるfooter.scssのimport*/
+.l-container {
+  height: 100%;
+  width: 100%;
+  left: -100%;
+}
+
+/*.l-container::before{
+
+        background: red;
+        content: "";
+        //display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+      }
+*/
+.move2::before {
+  width: 100%;
+  height: 2800px;
+  background-color: #707070;
+  position: absolute;
+  left: 0vw;
+  top: 0vw;
+  content: "";
+}
+
+body {
+  position: relative;
+}
+
 /*Layoutフォルダの中にあるmain.scssのimport*/
 /*Layoutフォルダの中にあるsidebar.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるheader.scssのimport*/
@@ -507,7 +540,11 @@ template {
   top: 0vw;
   right: -100%;
   transition: right 0.5s;
-  display: block;
+}
+
+.move {
+  right: 0vw;
+  transition: right 0.3s;
 }
 
 #cross {
@@ -517,6 +554,7 @@ template {
   position: absolute;
   right: 3vw;
   top: 0vw;
+  cursor: pointer;
 }
 
 .s-text1 {

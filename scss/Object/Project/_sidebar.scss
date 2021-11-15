@@ -18,9 +18,18 @@
     top: 0vw;
     right: -100%;
     transition: right 0.5s;
-    display: block;
-    
+    //display: block;
+ 
 }
+
+
+.move{
+    right:0vw;
+    transition: right 0.3s;   
+}
+
+
+
 #cross{
     font-size: 300%;
     font-weight: bold;
@@ -28,6 +37,7 @@
     position: absolute;
     right: 3vw;
     top: 0vw;
+    cursor: pointer;
 }
 
 .s-text1{
