@@ -502,18 +502,30 @@ template {
         width: 100%;
       }
 */
+.move2 {
+  height: 100%;
+}
+
 .move2::before {
   width: 100%;
-  height: 2800px;
+  height: 100%;
   background-color: #707070;
   position: absolute;
   left: 0vw;
   top: 0vw;
   content: "";
+  z-index: 2;
+  opacity: 0.7;
 }
 
 body {
+  height: 2546px;
+  position: fixed;
   position: relative;
+}
+
+head {
+  height: 100%;
 }
 
 /*Layoutフォルダの中にあるmain.scssのimport*/
@@ -540,6 +552,7 @@ body {
   top: 0vw;
   right: -100%;
   transition: right 0.5s;
+  z-index: 3;
 }
 
 .move {
