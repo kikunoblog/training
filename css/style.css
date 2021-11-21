@@ -484,10 +484,18 @@ template {
 
 /*Layoutフォルダの中にあるheader.scssのimport*/
 /*Layoutフォルダの中にあるfooter.scssのimport*/
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
 .l-container {
   height: 100%;
   width: 100%;
-  left: -100%;
+  position: relative;
 }
 
 /*.l-container::before{
@@ -516,10 +524,11 @@ template {
   content: "";
   z-index: 2;
   opacity: 0.7;
+  display: block;
 }
 
 body {
-  height: 2546px;
+  height: 100vh;
   position: fixed;
   position: relative;
 }

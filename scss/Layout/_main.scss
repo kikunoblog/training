@@ -1,7 +1,16 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+
+
 .l-container{
     height: 100%;
     width: 100%;
-    left: -100%;
+    //left: -100%;
+    position: relative;
 }
 
 /*.l-container::before{
@@ -20,6 +29,8 @@
 
 .move2{
     height: 100%;
+
+ 
 }
  
 
@@ -33,10 +44,11 @@
     content: "";
     z-index: 2;
     opacity: 0.7;
+    display: block;
 }
      
 body{
-    height: 2546px;
+    height: 100vh;
     position: fixed;
     position: relative;
 }
