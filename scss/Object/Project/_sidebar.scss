@@ -14,25 +14,20 @@
 .side{
     background-color: #f2ede9;
     width:87.5%;
-    position: absolute;
+    position:absolute;
     top: 0vw;
     right: -100%;
     transition: right 0.5s;
-    //display: block;
+    display: block;
     z-index: 3;
- 
+    //position: relative;
+    //height: 275vh;
 }
-
-
-
-
 
 .move{
     right:0vw;
     transition: right 0.3s;   
 }
-
-
 
 #cross{
     font-size: 300%;
