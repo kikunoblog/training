@@ -543,6 +543,8 @@ head {
   transition: right 0.5s;
   display: block;
   z-index: 3;
+  height: 100%;
+  overflow-y: scroll;
 }
 
 .move {

@@ -1,6 +1,6 @@
 #s-menu{
     margin:5vw;
-
+    
 }
 
 .s-list1{
@@ -21,7 +21,8 @@
     display: block;
     z-index: 3;
     //position: relative;
-    //height: 275vh;
+    height: 100%;
+    overflow-y: scroll;
 }
 
 .move{
