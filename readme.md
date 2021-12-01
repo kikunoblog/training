@@ -109,9 +109,14 @@ git merge "#2"とすれば、自分でコードを改めて書かなくても、
 
 ・jQueryはまとめてかけるが、
 $("#cross").on("click", function(){
+
 $(".side .l-container").removeClass("move move2");});
+
 という書き方は間違いで動作しない。別々に書けば動くがまとめるなら下記のようにする。
 $("#cross").on("click", function(){
+
   $(".side").removeClass("move");
+  
   $(".l-container").removeClass("move2");
+  
 });
