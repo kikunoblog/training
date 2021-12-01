@@ -1,48 +1,47 @@
-#s-menu{
-    margin:5vw;
-    
+#s-menu {
+  margin: 5vw;
 }
 
-.s-list1{
-    margin: 5vw;
+.s-list1 {
+  margin: 5vw;
 }
 
-.s-list2{
-    margin: 5vw;
+.s-list2 {
+  margin: 5vw;
 }
 
-.side{
-    background-color: #f2ede9;
-    width:87.5%;
-    position:absolute;
-    top: 0vw;
-    right: -100%;
-    transition: right 0.5s;
-    display: block;
-    z-index: 3;
-    //position: relative;
-    height: 100%;
-    overflow-y: scroll;
+.side {
+  background-color: #f2ede9;
+  width: 87.5%;
+  position: absolute;
+  top: 0vw;
+  right: -100%;
+  transition: right 0.5s;
+  display: block;
+  z-index: 3;
+  //position: relative;
+  height: 100%;
+  overflow-y: scroll;
 }
 
-.move{
-    right:0vw;
-    transition: right 0.3s;   
+.move {
+  right: 0vw;
+  transition: right 0.3s;
 }
 
-#cross{
-    font-size: 300%;
-    font-weight: bold;
-    color: #707070;
-    position: absolute;
-    right: 3vw;
-    top: 0vw;
-    cursor: pointer;
+#cross {
+  font-size: 300%;
+  font-weight: bold;
+  color: #707070;
+  position: absolute;
+  right: 3vw;
+  top: 0vw;
+  cursor: pointer;
 }
 
-.s-text1{
-    font-size: 5vw;
-    font-weight: bold;
-    color: #707070;
-    margin-top: 15vw;
+.s-text1 {
+  font-size: 5vw;
+  font-weight: bold;
+  color: #707070;
+  margin-top: 15vw;
 }
