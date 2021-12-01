@@ -118,7 +118,10 @@ $("#menu").on("click", function(){
   $(".l-container").toggleClass("move2");
 });
 $("#cross").on("click", function(){
-  $(".side .l-container").removeClass("move move2");
+  $(".side").removeClass("move");
+});
+$("#cross").on("click", function(){
+  $(".l-container").removeClass("move2");
 });
 
 </script>
