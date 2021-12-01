@@ -107,3 +107,11 @@ git merge "#2"とすれば、自分でコードを改めて書かなくても、
 ・bodyにposition:fixedを設定して、width:100%も設定したら、サイドメニューなどの他の要素も含めて固定されてスクロールが全くできなくなる。これを解決するには、
 　スクロールしたい要素に対して、height:100%とoverflow-y: scrollを設定すればその設定された要素はスクロールさせられるようになる。
 
+・jQueryはまとめてかけるが、
+$("#cross").on("click", function(){
+$(".side .l-container").removeClass("move move2");});
+という書き方は間違いで動作しない。別々に書けば動くがまとめるなら下記のようにする。
+$("#cross").on("click", function(){
+  $(".side").removeClass("move");
+  $(".l-container").removeClass("move2");
+});
