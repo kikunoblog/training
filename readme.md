@@ -65,6 +65,7 @@ git merge "#2"とすれば、自分でコードを改めて書かなくても、
 
 ・$("#cross").on("click", function(){ $("#cross").removeClass("open open2");});→言語化「id cross をクリックしたら id cross についているクラス open と open2 を削除」
 
+実際に、もしhtmlに自分でopen と open2　クラスを記述してしまうと、clickイベントの状態が最初から怒ってる状態になってしまうので注意！
 
 ・JS は結局クラスをつける・外すを行うだけなのでCSSが出来てから考える
 ・JS の挙動と CSS の挙動は別々に考えて実装する
