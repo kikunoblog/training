@@ -474,7 +474,7 @@ template {
   position: relative;
 }
 
-.header #menu {
+.header .js-menu {
   cursor: pointer;
   color: #707070;
   position: absolute;
@@ -499,12 +499,12 @@ head {
   width: 100%;
 }
 
-.move2 {
+.is-open2 {
   height: 100%;
   position: relative;
 }
 
-.move2::before {
+.is-open2::before {
   width: 100%;
   height: 100%;
   background-color: #707070;
@@ -522,7 +522,7 @@ head {
 /*Objectフォルダの中のProjectフォルダの中にあるheader.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるfooter.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるmain.scssのimport*/
-#s-menu {
+.s-menu {
   margin: 5vw;
 }
 
@@ -547,12 +547,12 @@ head {
   overflow-y: scroll;
 }
 
-.move {
+.is-open {
   right: 0vw;
   transition: right 0.3s;
 }
 
-#cross {
+.js-cross {
   font-size: 300%;
   font-weight: bold;
   color: #707070;

@@ -17,12 +17,12 @@ head {
   //position: fixed;
 }
 
-.move2 {
+.is-open2 {
   height: 100%;
   position: relative;
 }
 
-.move2::before {
+.is-open2::before {
   width: 100%;
   height: 100%;
   background-color: #707070;

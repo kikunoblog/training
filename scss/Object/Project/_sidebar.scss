@@ -1,4 +1,4 @@
-#s-menu {
+.s-menu {
   margin: 5vw;
 }
 
@@ -24,12 +24,12 @@
   overflow-y: scroll;
 }
 
-.move {
+.is-open {
   right: 0vw;
   transition: right 0.3s;
 }
 
-#cross {
+.js-cross {
   font-size: 300%;
   font-weight: bold;
   color: #707070;
