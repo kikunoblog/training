@@ -130,3 +130,12 @@ $("#cross").on("click", function(){
 
 ・id セレクタは同一ページで複数の要素に指定できないため、柔軟性を失う
 
+・ jQueryをhtmlの中ではなく、別ファイルを作ってコーディングしていく場合、htmlの中にjQueryのリンクを貼らないといけない。たとえば下記のようなもの
+
+  <script src="js/test.js"></script>　→　これは、htmlと同じ階層jsフォルダの中にあるtest.jsファイルにアクセスできるようにする（ちゃんと動くようにする）コード
+  
+  このコードは、jQuery本体を読み込むためのコードである下記のようなものの「上」に記載しないとjQueryが起動しないので超注意！
+
+　<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
