@@ -1,3 +1,4 @@
+
 $(".js-menu").on("click", function(){
 $(".side").toggleClass("is-open");
 });
