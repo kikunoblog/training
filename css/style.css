@@ -462,7 +462,7 @@ template {
 そこで、MENUの文字を別にdivクラスで設定すればできるということに気が付く。親要素は.headerになるため、.l-container
 クラスは消した
 */
-.header {
+.l-header {
   height: 217px;
   background-color: #fff7ef;
   display: flex;
@@ -474,7 +474,7 @@ template {
   position: relative;
 }
 
-.header .js-menu {
+.l-header .js-menu {
   cursor: pointer;
   color: #707070;
   position: absolute;
@@ -522,19 +522,19 @@ head {
 /*Objectフォルダの中のProjectフォルダの中にあるheader.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるfooter.scssのimport*/
 /*Objectフォルダの中のProjectフォルダの中にあるmain.scssのimport*/
-.s-menu {
+.p-sidebarmenu {
   margin: 5vw;
 }
 
-.s-list1 {
+.p-sidebarlist1 {
   margin: 5vw;
 }
 
-.s-list2 {
+.p-sidebarlist2 {
   margin: 5vw;
 }
 
-.side {
+.p-side {
   background-color: #f2ede9;
   width: 87.5%;
   position: absolute;
@@ -562,7 +562,7 @@ head {
   cursor: pointer;
 }
 
-.s-text1 {
+.p-sidebartext1 {
   font-size: 5vw;
   font-weight: bold;
   color: #707070;

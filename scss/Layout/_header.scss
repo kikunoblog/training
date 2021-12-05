@@ -4,7 +4,7 @@
 そこで、MENUの文字を別にdivクラスで設定すればできるということに気が付く。親要素は.headerになるため、.l-container
 クラスは消した
 */
-.header {
+.l-header {
   height: 217px;
   background-color: #fff7ef;
   display: flex;
